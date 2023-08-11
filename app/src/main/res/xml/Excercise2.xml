@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/pgexcercise 1" />
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Exercise Chart"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/img2.png"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="124dp"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/pgexcercise 1.jpg"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="PregnancyExcercise"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="166dp"
+        android:layout_height="37dp"
+        android:text="Normal Diet"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
